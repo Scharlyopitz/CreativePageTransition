@@ -11,6 +11,7 @@ a {
 }
 
 h1 {
+  text-transform: uppercase;
   font-family: "Libre Caslon Text", serif;
 }
 
