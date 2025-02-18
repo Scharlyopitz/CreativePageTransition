@@ -3,9 +3,6 @@
 body {
   height: 100vh;
   font-family: "Inter", serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 a {
@@ -15,8 +12,17 @@ a {
 
 h1 {
   font-weight: 200;
+  font-size: 5vw;
   text-transform: uppercase;
   font-family: "Libre Caslon Text", serif;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
 }
 
 * {
@@ -35,4 +41,9 @@ nav {
   justify-content: space-around;
   padding: 5vh 5vw;
   text-transform: uppercase;
+}
+
+#about {
+  background: #d33535;
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */

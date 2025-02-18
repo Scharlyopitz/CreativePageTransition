@@ -1,9 +1,6 @@
 body {
   height: 100vh;
   font-family: "Inter", serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 a {
@@ -13,6 +10,15 @@ a {
 
 h1 {
   font-weight: 200;
+  font-size: 5vw;
   text-transform: uppercase;
   font-family: "Libre Caslon Text", serif;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
 }
