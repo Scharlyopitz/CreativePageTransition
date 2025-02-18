@@ -7,10 +7,12 @@ export default function About() {
       initial="initial"
       animate="animate"
       exit="exit"
-      variants={animePageContent}
+      // variants={animePageContent}
       id="about"
     >
+      {/* <div className="mask"> */}
       <h1>about</h1>
+      {/* </div> */}
     </m.main>
   );
 }

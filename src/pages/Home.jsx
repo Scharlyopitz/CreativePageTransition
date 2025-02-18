@@ -8,7 +8,7 @@ export default function Home() {
       initial="initial"
       animate="animate"
       exit="exit"
-      variants={animePageContent}
+      // variants={animePageContent}
     >
       <h1>Home</h1>
     </m.main>
