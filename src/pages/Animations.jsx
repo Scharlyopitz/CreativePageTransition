@@ -1,18 +1,9 @@
 export const animePageContent = {
-  initial: {
-    y: "102%",
-  },
+  initial: { opacity: 0 },
   animate: {
-    y: 0,
+    opacity: 1,
     transition: {
-      duration: 1,
-      ease: [0.65, 0, 0.35, 1],
-    },
-  },
-  exit: {
-    y: 1,
-    transition: {
-      duration: 1,
+      duration: 0.3,
       ease: [0.65, 0, 0.35, 1],
     },
   },
