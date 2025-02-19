@@ -3,7 +3,23 @@
   width: 100%;
   height: 100%;
 
-  .image {
+  .layoutBtn {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+
+    div {
+      padding: 30px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  img {
     position: absolute;
     width: 150px;
     aspect-ratio: 1/1.5;
@@ -11,6 +27,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
     transition: 0.5s cubic-bezier(0.65, 0, 0.35, 1);
 
     &:nth-child(1) {
@@ -22,6 +39,10 @@
         top: 20%;
         left: 10%;
       }
+      &.layout-3 {
+        top: 20%;
+        left: 80%;
+      }
     }
     &:nth-child(2) {
       &.layout-1 {
@@ -31,6 +52,10 @@
       &.layout-2 {
         top: 44%;
         left: 10%;
+      }
+      &.layout-3 {
+        top: 20%;
+        left: 80%;
       }
     }
     &:nth-child(3) {
@@ -42,6 +67,10 @@
         top: 68%;
         left: 10%;
       }
+      &.layout-3 {
+        top: 20%;
+        left: 80%;
+      }
     }
     &:nth-child(4) {
       &.layout-1 {
@@ -51,6 +80,10 @@
       &.layout-2 {
         top: 92%;
         left: 10%;
+      }
+      &.layout-3 {
+        top: 20%;
+        left: 80%;
       }
     }
   }
