@@ -3,8 +3,6 @@ import { motion as m } from "motion/react";
 import { animePageContent } from "../pages/Animations";
 
 export default function ImagesLayout() {
-  const numberOfImages = 4;
-
   const [layout, setLayout] = useState(1);
 
   const images = [
