@@ -49,6 +49,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 0.5s cubic-bezier(0.65, 0, 0.35, 1);
 }
 .imagesLayout .image:nth-child(1).layout-1 {
   top: 20%;
