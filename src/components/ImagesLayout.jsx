@@ -4,7 +4,7 @@ export default function ImagesLayout() {
     <div className="imagesLayout">
       {[...Array(numberOfImages)].map((_, i) => {
         return (
-          <div key={i} className="image">
+          <div key={i} className="image layout-2">
             {i + 1}
           </div>
         );

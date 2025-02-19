@@ -38,6 +38,49 @@ main {
 
 .imagesLayout {
   position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.imagesLayout .image {
+  position: absolute;
+  width: 150px;
+  aspect-ratio: 1/1.5;
+  background: rgb(114, 114, 114);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imagesLayout .image:nth-child(1).layout-1 {
+  top: 20%;
+  left: 10%;
+}
+.imagesLayout .image:nth-child(1).layout-2 {
+  top: 20%;
+  left: 10%;
+}
+.imagesLayout .image:nth-child(2).layout-1 {
+  top: 40%;
+  left: 60%;
+}
+.imagesLayout .image:nth-child(2).layout-2 {
+  top: 44%;
+  left: 10%;
+}
+.imagesLayout .image:nth-child(3).layout-1 {
+  top: 30%;
+  left: 30%;
+}
+.imagesLayout .image:nth-child(3).layout-2 {
+  top: 68%;
+  left: 10%;
+}
+.imagesLayout .image:nth-child(4).layout-1 {
+  top: 70%;
+  left: 80%;
+}
+.imagesLayout .image:nth-child(4).layout-2 {
+  top: 92%;
+  left: 10%;
 }
 
 nav {
